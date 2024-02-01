@@ -296,6 +296,7 @@ def plot_graph(
         xs = [str(x) for x in xs]
     
     # Set default style
+    # print(style)
     with plt.style.context(style):
         
         # Font params
@@ -604,7 +605,8 @@ def create_bars(n, horizontal=False):
     # Possible parameter combinations
     remove_spines = [True, False]
     remove_ticks = [True, False]
-    mpl_styles = ["_mpl-gallery", "_mpl-gallery-nogrid", "fivethirtyeight", "ggplot", "seaborn-v0_8-whitegrid", "Solarize_Light2", "bmh", "seaborn-v0_8-darkgrid"]
+    # mpl_styles = ["_mpl-gallery", "_mpl-gallery-nogrid", "fivethirtyeight", "ggplot", "seaborn-v0_8-whitegrid", "Solarize_Light2", "bmh", "seaborn-v0_8-darkgrid"]
+    mpl_styles = ['Solarize_Light2', '_classic_test_patch', 'bmh', 'classic', 'dark_background', 'fast', 'fivethirtyeight', 'ggplot', 'grayscale', 'seaborn', 'seaborn-bright', 'seaborn-colorblind', 'seaborn-dark', 'seaborn-dark-palette', 'seaborn-darkgrid', 'seaborn-deep', 'seaborn-muted', 'seaborn-notebook', 'seaborn-paper', 'seaborn-pastel', 'seaborn-poster', 'seaborn-talk', 'seaborn-ticks', 'seaborn-white', 'seaborn-whitegrid', 'tableau-colorblind10']
     font_families = ["Microsoft Sans Serif", "Calibri", "Arial", "Times New Roman", "Comic Sans MS"]
     font_families = ["Calibri", "DejaVu Sans", "Tahoma", "Verdana"]
     font_sizes = range(7, 9)
@@ -756,7 +758,8 @@ def create_lines(n):
     # Possible parameter combinations
     remove_spines = [True, False]
     remove_ticks = [True, False]
-    mpl_styles = ["_mpl-gallery", "_mpl-gallery-nogrid", "fivethirtyeight", "ggplot", "seaborn-v0_8-whitegrid", "Solarize_Light2", "bmh", "seaborn-v0_8-darkgrid"]
+    # mpl_styles = ["_mpl-gallery", "_mpl-gallery-nogrid", "fivethirtyeight", "ggplot", "seaborn-v0_8-whitegrid", "Solarize_Light2", "bmh", "seaborn-v0_8-darkgrid"]
+    mpl_styles = ['Solarize_Light2', '_classic_test_patch', 'bmh', 'classic', 'dark_background', 'fast', 'fivethirtyeight', 'ggplot', 'grayscale', 'seaborn', 'seaborn-bright', 'seaborn-colorblind', 'seaborn-dark', 'seaborn-dark-palette', 'seaborn-darkgrid', 'seaborn-deep', 'seaborn-muted', 'seaborn-notebook', 'seaborn-paper', 'seaborn-pastel', 'seaborn-poster', 'seaborn-talk', 'seaborn-ticks', 'seaborn-white', 'seaborn-whitegrid', 'tableau-colorblind10']
     font_families = ["Microsoft Sans Serif", "Calibri", "Arial", "Times New Roman", "Comic Sans MS"]
     font_families = ["Calibri", "DejaVu Sans", "Tahoma", "Verdana"]
     font_sizes = range(7, 9)
@@ -895,7 +898,8 @@ def create_dots(n):
     # Possible parameter combinations
     remove_spines = [True, False]
     remove_ticks = [True, False]
-    mpl_styles = ["_mpl-gallery", "_mpl-gallery-nogrid", "fivethirtyeight", "ggplot", "seaborn-v0_8-whitegrid", "Solarize_Light2", "bmh", "seaborn-v0_8-darkgrid"]
+    # mpl_styles = ["_mpl-gallery", "_mpl-gallery-nogrid", "fivethirtyeight", "ggplot", "seaborn-v0_8-whitegrid", "Solarize_Light2", "bmh", "seaborn-v0_8-darkgrid"]
+    mpl_styles = ['Solarize_Light2', '_classic_test_patch', 'bmh', 'classic', 'dark_background', 'fast', 'fivethirtyeight', 'ggplot', 'grayscale', 'seaborn', 'seaborn-bright', 'seaborn-colorblind', 'seaborn-dark', 'seaborn-dark-palette', 'seaborn-darkgrid', 'seaborn-deep', 'seaborn-muted', 'seaborn-notebook', 'seaborn-paper', 'seaborn-pastel', 'seaborn-poster', 'seaborn-talk', 'seaborn-ticks', 'seaborn-white', 'seaborn-whitegrid', 'tableau-colorblind10']
     font_families = ["Microsoft Sans Serif", "Calibri", "Arial", "Times New Roman", "Comic Sans MS"]
     font_families = ["Calibri", "DejaVu Sans", "Tahoma", "Verdana"]
     font_sizes = range(7, 9)
@@ -1059,7 +1063,8 @@ def create_scatters(n):
     # Possible parameter combinations
     remove_spines = [True, False]
     remove_ticks = [True, False]
-    mpl_styles = ["_mpl-gallery", "_mpl-gallery-nogrid", "fivethirtyeight", "ggplot", "seaborn-v0_8-whitegrid", "Solarize_Light2", "bmh", "seaborn-v0_8-darkgrid"]
+    # mpl_styles = ["_mpl-gallery", "_mpl-gallery-nogrid", "fivethirtyeight", "ggplot", "seaborn-v0_8-whitegrid", "Solarize_Light2", "bmh", "seaborn-v0_8-darkgrid"]
+    mpl_styles = ['Solarize_Light2', '_classic_test_patch', 'bmh', 'classic', 'dark_background', 'fast', 'fivethirtyeight', 'ggplot', 'grayscale', 'seaborn', 'seaborn-bright', 'seaborn-colorblind', 'seaborn-dark', 'seaborn-dark-palette', 'seaborn-darkgrid', 'seaborn-deep', 'seaborn-muted', 'seaborn-notebook', 'seaborn-paper', 'seaborn-pastel', 'seaborn-poster', 'seaborn-talk', 'seaborn-ticks', 'seaborn-white', 'seaborn-whitegrid', 'tableau-colorblind10']
     font_families = ["Microsoft Sans Serif", "Calibri", "Arial", "Times New Roman", "Comic Sans MS"]
     font_families = ["Calibri", "DejaVu Sans", "Tahoma", "Verdana"]
     font_sizes = range(7, 9)
@@ -1225,6 +1230,10 @@ if __name__ == "__main__":
     with open(config.categoricals_file, "r") as f:
         similar_word_map = json.load(f)
         similar_word_map = {int(k): v for k, v in similar_word_map.items()}
+
+    # print(plt.style.available)
+    import matplotlib
+    print(matplotlib.get_cachedir())
 
     # Generate Graphs
     generation_helper(config.ctype, n=config.generate_n_imgs, all_charts=False)
